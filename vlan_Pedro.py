@@ -9,7 +9,7 @@ from mininet.log import error, setLogLevel
 
 class VLANHost( Host ):
 
-    def config( self, vlan=100, **params ):"
+    def config( self, vlan=100, **params ):
 
         r = super( VLANHost, self ).config( **params )
 
